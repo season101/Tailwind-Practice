@@ -2,3 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base{
+    *{
+        @apply border-2 border-green-200;
+    }
+}
